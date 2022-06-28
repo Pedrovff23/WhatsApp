@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whats_app_primary_dark"
+    android:orientation="vertical"
+    tools:context=".activity.ValidarNumeroActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/campo_numero_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints="no"
+        android:background="@drawable/background_layout_campo_numero"
+        android:drawableStart="@drawable/ic_phone"
+        android:drawablePadding="5dp"
+        android:hint="Digite seu numero"
+        android:inputType="phone"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="#63FFFFFF"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/texto_chave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/campo_numero_telefone"
+        android:layout_marginTop="30dp"
+        android:text="Click na chave para receber a autenticação"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/button_validar_numero"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/texto_chave"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/transparente"
+        android:scaleType="centerInside"
+        android:src="@drawable/key"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ProgressBar
+        android:id="@+id/progress_circular_numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_validar_numero"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:layout_marginTop="30dp"/>
+
+
+</RelativeLayout>

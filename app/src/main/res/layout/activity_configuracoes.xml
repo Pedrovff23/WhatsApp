@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cinza_claro"
+    android:orientation="vertical"
+    tools:context=".activity.ConfiguracoesActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbarConfiguracao"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageViewPerfil"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/padrao"
+        app:civ_border_color="@color/white" />
+
+    <ImageButton
+        android:id="@+id/buttonCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/circleImageViewPerfil"
+        android:layout_below="@id/circleImageViewPerfil"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_photo_camera"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/buttonGaleria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/circleImageViewPerfil"
+        android:layout_below="@id/circleImageViewPerfil"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_insert_photo"
+        tools:ignore="ContentDescription" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="60dp"
+    android:layout_below="@id/circleImageViewPerfil"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/edit_nome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:autofillHints="no"
+        android:hint="Nome do usuário"
+        android:inputType="text"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/alterarNome"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_edit"
+        tools:ignore="ContentDescription"
+        android:focusable="true" />
+</LinearLayout>
+
+
+</RelativeLayout>
