@@ -3,7 +3,7 @@
 Este aplicativo WhatsApp clone é uma cópia simplificada do Whtasapp (https://www.whatsapp.com/?lang=pt_br) 
 para fins de aprendizado e não tem como objetivo ser distribuído na Google Play.
 
-Esse projeto tem como objetivo reecriar as principis funcionalidades do aplicativo whatsaap, como enviar mensagem. configuraçoes de imagem, pesquisar contatos,
+Esse projeto tem como objetivo reecriar as principis funcionalidades do aplicativo whatsaap, como enviar mensagem, configuraçoes de imagem, pesquisar contatos,
 entre outros
 
 # Funcionalidades usada 
