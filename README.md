@@ -14,7 +14,4 @@ o MaterialSearchView para a pesquisa dos contatos.
 
 # Funcionamento do WhatsApp-Clone
 
-
-
 https://user-images.githubusercontent.com/55757037/176322827-702b7488-153c-4c9c-8d81-03c544fbfb08.mp4
-
