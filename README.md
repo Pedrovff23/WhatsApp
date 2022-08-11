@@ -10,7 +10,7 @@ entre outros.
 
 Este projeto aplica algumas funcionalidades com por exemplo o Firebase utilizando o serviço de autenticação, Realtime Database e o Storage
 
-### Biblioteca
+### Bibliotecas
 Foram utilizadas algumas biblioteca para auxiliar no desenvolvimento como a SmartTabLayout para o uso de fragment o CircleImageView para o icone da imagem e também o MaterialSearchView para a pesquisa dos contatos.
 
 # Vídeo do funcionamento do WhatsApp Clone
